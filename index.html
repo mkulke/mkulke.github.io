@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magnus Kulke</title>
+<meta name="description" content="Public GPG key for Magnus Kulke.">
+<style>
+  :root {
+    --bg: #eef2f5;
+    --ink: #14263a;
+    --muted: #4d6076;
+    --line: #c5d0da;
+    --panel: #ffffff;
+    --accent: #0b6e80;
+    --accent-ink: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101b27;
+      --ink: #e4ebf2;
+      --muted: #9fb0c1;
+      --line: #2b3b4c;
+      --panel: #16263a;
+      --accent: #5ec2d4;
+      --accent-ink: #0a1a26;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main, footer > div { width: min(44rem, 100% - 2.5rem); margin-inline: auto; }
+  main { flex: 1; padding-block: 4rem 3rem; }
+  h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); line-height: 1.1; margin: 0 0 .5rem; letter-spacing: -0.01em; }
+  h2 { font-size: 1.35rem; margin: 3rem 0 .75rem; }
+  p { margin: 0 0 1rem; max-width: 60ch; }
+  .lead { color: var(--muted); font-size: 1.15rem; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+  .links { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; padding: 0; list-style: none; }
+  .links a {
+    display: inline-block; padding: .55rem 1.1rem; border: 1px solid var(--accent);
+    border-radius: 4px; text-decoration: none; font-weight: 600;
+  }
+  .links a:hover { background: var(--accent); color: var(--accent-ink); }
+
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: .25rem 1.25rem; margin: 0 0 1.25rem; }
+  dt { color: var(--muted); }
+  dd { margin: 0; }
+  code, pre, .fp { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .fp { font-size: .95rem; word-break: break-all; }
+
+  .keybox { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; }
+  .keybox pre {
+    margin: 0; padding: 1rem; overflow-x: auto; font-size: .8rem; line-height: 1.45;
+    max-height: 22rem;
+  }
+  .keybar { display: flex; gap: .75rem; flex-wrap: wrap; padding: .6rem 1rem; border-top: 1px solid var(--line); }
+  button, .keybar a {
+    font: inherit; font-size: .95rem; padding: .35rem .9rem; border-radius: 4px;
+    border: 1px solid var(--accent); background: transparent; color: var(--accent);
+    cursor: pointer; text-decoration: none;
+  }
+  button:hover, .keybar a:hover { background: var(--accent); color: var(--accent-ink); }
+
+  footer { border-top: 1px solid var(--line); padding-block: 1.75rem; font-size: .9rem; color: var(--muted); }
+  footer nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+  footer p { margin: .75rem 0 0; }
+
+  /* Legal pages shown via :target, no JavaScript needed */
+  .legal { display: none; }
+  .legal:target { display: block; }
+  body:has(.legal:target) .home { display: none; }
+  .legal h2 { margin-top: 0; font-size: 1.8rem; }
+  .legal h3 { margin: 1.75rem 0 .4rem; font-size: 1.1rem; }
+</style>
+</head>
+<body>
+
+<main>
+  <div class="home">
+    <h2>Public GPG key</h2>
+    <dl>
+      <dt>Key ID</dt><dd class="fp">0x68D9BB56DD178417</dd>
+      <dt>Fingerprint</dt><dd class="fp">5255 B617 7982 9168 7022  31CA 68D9 BB56 DD17 8417</dd>
+      <dt>Email</dt><dd>magnuskulke@linux.microsoft.com</dd>
+    </dl>
+
+    <div class="keybox">
+<pre id="gpg-key">-----BEGIN PGP PUBLIC KEY BLOCK-----
+mDMEamxBfhYJKwYBBAHaRw8BAQdAbDRrMoNhsfqVawbgyjJsKZwQ9el0qBKI15xu
+mSZg1eq0NU1hZ251cyBLdWxrZSAoUUVNVSkgPG1hZ251c2t1bGtlQGxpbnV4Lm1p
+Y3Jvc29mdC5jb20+iJYEExYIAD4WIQRSVbYXeYKRaHAiMcpo2btW3ReEFwUCamxB
+fgIbAQUJEswDAAULCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRBo2btW3ReEF/oI
+AQCB7Pi+PRN0CvMiOBRZapeaRLAbHPUdC09WP6U9FrcnXQEAzZmcb5Ewb2Kg5rDU
+kKdDoCPP22zigI65b//vK9LdrwOJAjMEEAEKAB0WIQTYD0mvSm75qpwqLC2YQIfU
+/mqzSwUCao/R7gAKCRCYQIfU/mqzS4BeEACa2j9+KMtgVnwz7M/KaNwO12zOZGkL
+8QmasAXHsttKhEPugzWQP/ed0j1WtC2toDL+KpU3brDz6jKhHQJDKeo9jf4MsHWl
+6BuvPIMgBfPxBQ/ePTV0wNPRFPq/pPc4w8Gu7Pyf1z4qydbTyRgstNnkaDqHsJc9
+d/CMFO2QrK+6mW7IBQP5hJ4HEOaGfB8/vGhOh/ra+VNnG1uuvwS/ltDreWyjVL5z
+7jXkPENPJbvsXyeMoNrdSv3sCcXZOF/3h3norUDb0TEv3jvVHJ0JQ8wZtPZO8Etz
+JYDOPxMGcDHZWNeCqT4SK7DOYdgwO4MyjuzTvsROLr79dMTvGwNdz6Z0LzqCHdRW
+CHYn8kBRkMlwaozWeuwK/JLnaWerpCjO390x1nsoHce7i2KNYynG5J5ZD/DqFlgL
+8xJV7op2QfHx68UQXQG/4aPX4w1KPQEgWQ4b3ZTp2TaaOKgkmLTcegSPTeQ6XwBr
+f7y1a2hG6QIOSr56bJ8kgRncb9ecnRg+F5XWw45Vl7V0n/7uVuofDrw8gzLR9Y6t
+/kbimuh6HLcV24LwJooQLrlKnvHmw1Or3IL/XXrkhMcSx2oeX9DtH6AsmegW3lUe
+9ONn54I0jXWa5B3XPMbs48JUMMYDZQng4JNZ0NdmfvQoH46dMga/Npb6ocLMHASS
+UxWp4OS0P19f9bgzBGpsQlMWCSsGAQQB2kcPAQEHQAjLHVFBIdsRS2yOB+xzjFD/
+14H5W6L6FySLyTFWVyTriPUEGBYIACYWIQRSVbYXeYKRaHAiMcpo2btW3ReEFwUC
+amxCUwIbAgUJEswDAACBCRBo2btW3ReEF3YgBBkWCAAdFiEEiDHdV8mBauerUqvT
+3fXXkDgsC4oFAmpsQlMACgkQ3fXXkDgsC4odVgEA/Iw/cS5oyGU+hCA5I0OnOdne
+aBng0drvQIFLRN8HPA0BAJYvfhf/184akRw2NDtAYqSlTKZHZoDc7clr4dXS+7gA
+9mMA/02pnoKn+6RcFMnQBbhMTh0qsAvX7Cf2+6TuuTJcL+o7AQDknbxdcPZpK2JW
+GX8mCMXSadpAaFUJVA6riRQMAjSsCw==
+=HGBq
+-----END PGP PUBLIC KEY BLOCK-----</pre>
+      <div class="keybar">
+        <button type="button" id="copy-key">Copy key</button>
+        <a href="magnuskulke.asc" download="magnuskulke.asc">Download magnuskulke.asc</a>
+      </div>
+    </div>
+    <p id="copy-status" role="status" style="margin-top:.5rem;color:var(--muted);font-size:.9rem"></p>
+  </div>
+
+  <!-- Legal notice -->
+  <section class="legal" id="impressum">
+    <h2>Legal notice</h2>
+    <h3>Contact</h3>
+    <p>Email: magnuskulke@linux.microsoft.com
+    <h3>Content and liability</h3>
+    <p>The content of this site is provided without guarantee. Links lead to external sites whose content I do not control.</p>
+    <p><a href="#">Back to the start page</a></p>
+  </section>
+
+  <!-- Privacy -->
+  <section class="legal" id="privacy">
+    <h2>Privacy</h2>
+    <p>This site is static. I run no analytics, set no cookies and do not collect personal data myself.</p>
+    <h3>Hosting</h3>
+    <p>The site is hosted on GitHub Pages by GitHub, Inc. (88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA). When you visit, GitHub processes technical data such as your IP address in server logs. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub's privacy statement</a>.</p>
+    <h3>External links</h3>
+    <p>Links to GitHub and LinkedIn only send data to those services once you click them.</p>
+    <p><a href="#">Back to the start page</a></p>
+  </section>
+</main>
+
+<footer>
+  <div>
+    <nav aria-label="Legal">
+      <a href="#impressum">Legal notice</a>
+      <a href="#privacy">Privacy</a>
+    </nav>
+    <p>&copy; <span id="year">2026</span> Magnus Kulke</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("copy-key").addEventListener("click", async function () {
+    var status = document.getElementById("copy-status");
+    try {
+      await navigator.clipboard.writeText(document.getElementById("gpg-key").textContent);
+      status.textContent = "Key copied to clipboard.";
+    } catch (e) {
+      status.textContent = "Copy failed. Select the key text and copy it manually.";
+    }
+  });
+</script>
+</body>
+</html>
